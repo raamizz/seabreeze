@@ -9,6 +9,8 @@ import {
 import "./App.css";
 
 import Header from "./components/navbar/Header";
+import About from "./components/landing/About";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -16,25 +18,18 @@ function App() {
       <Router>
         <Header />
         <Routes>
-           <Route
-           path="/"
-           element={
-            <>
-            <Suspense>
-
-              <div className="text-2xl">
-                landing PAGEE
-              </div>
-            </Suspense>
-            </>
-           }
-           />
-           
-
-      
-
-
+          <Route
+            path="/"
+            element={
+              <>
+                <Suspense>
+                  <About />
+                </Suspense>
+              </>
+            }
+          />
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );
