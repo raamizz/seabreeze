@@ -7,9 +7,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between items-center">
           <div className="flex justify-between items-center w-full">
             <div className="w-full md:w-auto text-blue-500">
-              <a href="/" className=" font-bold text-lg">
-                Seabreeze Pvt Ltd
-              </a>
+             <img src="/Images/SB_Logo.png" className="h-24 w-24" alt="" />
             </div>
             <div className="w-full md:w-auto text-blue-400 text-sm md:mt-0">
               <p>Have any question</p>

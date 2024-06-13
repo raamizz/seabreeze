@@ -1,23 +1,3 @@
-// import React from 'react'
-
-// const Banner = () => {
-//   return (
-//     <>
-//       <div>
-//         <img
-//           src="/Images/Ship2.png"
-//           className="h-[400px] w-full  object-cover"
-//           alt=""
-//         />
-//       </div>
-//     </>
-//   );
-// }
-
-// export default Banner
-
-
-
 import React from "react";
 
 const Banner = () => {
@@ -25,7 +5,7 @@ const Banner = () => {
     <div className="relative">
       <img
         src="/Images/Ship2.png"
-        className="h-[400px] w-full object-cover shadow-transparent  shadow-2xl"
+        className="h-[400px] w-full object-cover  shadow-2xl"
         alt=""
       />
       <div className="absolute inset-0 flex items-center justify-center">
