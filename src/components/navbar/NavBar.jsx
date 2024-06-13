@@ -8,7 +8,7 @@ const NavBar = () => {
       </div>
       <div>
         <a href="/">
-          <img src="/Images/SB_logo.png" className="h-24 w-24 " alt="" />
+          <img src="/Images/SB_Logo.png" className="h-24 w-24 " alt="" />
         </a>
       </div>
       {/* // <div className="navright"> */}
