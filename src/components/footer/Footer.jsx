@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
             <div className="w-full md:w-auto text-blue-400 text-sm md:mt-0">
               <p>Have any question</p>
-              <p className="font-bold">+91 2268110300</p>
+              <p className="font-bold">+91 1122345678</p>
             </div>
           </div>
           <div className="w-full md:w-auto mt-4 md:mt-0">
@@ -41,21 +41,21 @@ const Footer = () => {
         </div>
         <div className="mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="w-full md:w-auto">
+            <div className="w-full md:w-auto text-center">
               <h3 className="text-blue-400 font-bold mb-2">
                 Subscribe To Newsletter
               </h3>
             </div>
-            <div className="w-full md:w-auto mt-4 md:mt-0">
+            <div className=" md:w-auto mt-4 md:mt-0">
               <form className="flex">
                 <input
                   type="email"
                   placeholder="Enter email address"
-                  className="px-4 py-2 rounded-l-md text-white focus:outline-none focus:bg-gray-600"
+                  className="px-2 py-2 rounded-l-md text-white focus:outline-none focus:bg-gray-600"
                 />
                 <button
                   type="submit"
-                  className="px-4 py-2 rounded-r-md bg-blue-400 text-white hover:bg-blue-600 focus:outline-none"
+                  className="px-2 py-2 rounded-r-md bg-blue-400 text-white hover:bg-blue-600 focus:outline-none"
                 >
                   Subscribe now
                 </button>

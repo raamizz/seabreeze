@@ -11,6 +11,8 @@ import "./App.css";
 import Header from "./components/navbar/Header";
 import About from "./components/landing/About";
 import Footer from "./components/footer/Footer";
+import ServicesSection from "./components/services/ServicesSection";
+import GetInTouchSection from "./components/connect/GetInTouch";
 
 function App() {
   return (
@@ -28,8 +30,28 @@ function App() {
               </>
             }
           />
+          <Route
+            path="/services"
+            element={
+              <>
+                <Suspense>
+                  <ServicesSection />
+                </Suspense>
+              </>
+            }
+          />
+          <Route
+            path="/getintouch"
+            element={
+              <>
+                <Suspense>
+                  <GetInTouchSection />
+                </Suspense>
+              </>
+            }
+          />
         </Routes>
-        <Footer/>
+        <Footer />
       </Router>
     </div>
   );
