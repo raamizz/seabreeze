@@ -7,7 +7,7 @@ const Missonvission = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
-              <div className="bg-white p-8 rounded-lg shadow-lg">
+              <div className="bg-white p-8 rounded-lg shadow-lg h-full">
                 <h2 className="text-2xl font-bold mb-4 text-blue-400">
                   Our Mission
                 </h2>
@@ -19,7 +19,7 @@ const Missonvission = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 px-4">
-              <div className="bg-blue-400 p-8 rounded-lg shadow-lg">
+              <div className="bg-blue-400 p-8 rounded-lg shadow-lg h-full">
                 <h2 className="text-2xl font-bold mb-4 text-white">
                   Our Vision
                 </h2>

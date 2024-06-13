@@ -11,8 +11,8 @@
     @apply flex items-center justify-evenly w-48 lg:mr-2
 }
 .about{
-    @apply text-xl px-5 text-justify py-16 font-normal 
+    @apply text-xl md:px-12 px-5 text-justify py-16 font-normal 
 }
 .custom-tab{
-    @apply border border-blue-300 p-2 rounded-md hover:bg-blue-400 cursor-pointer
+    @apply border border-blue-300 md:p-2 p-0.5 rounded-md hover:bg-blue-400 cursor-pointer
 }
