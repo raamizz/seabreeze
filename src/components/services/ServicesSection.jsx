@@ -4,9 +4,9 @@ const ServicesSection = () => {
   return (
     <section className="bg-gray-100 py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
+        <h2 className="text-3xl font-bold text-center mb-12 underline">Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl h-full">
             <div className="p-6 flex flex-col items-center">
               <div className="bg-blue-500 text-white rounded-full p-4 mb-4">
                 <img src="Images/cargo-ship.png" alt="" />
@@ -20,7 +20,7 @@ const ServicesSection = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl h-full">
             <div className="p-6 flex flex-col items-center">
               <div className="bg-green-500 text-white rounded-full p-4 mb-4">
                 <img src="Images/consultant.png" alt="" />
@@ -34,7 +34,7 @@ const ServicesSection = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl">
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl h-full">
             <div className="p-6 flex flex-col items-center">
               <div className="bg-yellow-500 text-white rounded-full p-4 mb-4">
                 <img src="Images/workers.png" alt="" />

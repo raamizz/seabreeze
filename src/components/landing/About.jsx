@@ -7,7 +7,9 @@ const About = () => {
     <>
       <Banner />
       <div className="about">
-        <h1 className="text-2xl font-semibold py-3 text-center underline">About Us</h1>
+        <h1 className="text-3xl font-bold text-center mb-12 underline">
+          About Us
+        </h1>
         We are a Ship Management Company headquartered in India. In light of the
         ever-evolving regulatory landscape, particularly regarding the stringent
         decarbonization goals established by various organizations, we are
@@ -18,7 +20,7 @@ const About = () => {
         while maintaining operational excellence and fostering stakeholder
         satisfaction.
       </div>
-      <Missonvission/>
+      <Missonvission />
     </>
   );
 };
