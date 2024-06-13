@@ -9,18 +9,7 @@ const ServicesSection = () => {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl">
             <div className="p-6 flex flex-col items-center">
               <div className="bg-blue-500 text-white rounded-full p-4 mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 2a6 6 0 110 12A6 6 0 0110 4zm0 4a2 2 0 100 4 2 2 0 000-4z"
-                    clipRule="evenodd"
-                  />
-                </svg>
+                <img src="Images/cargo-ship.png" alt="" />
               </div>
               <h3 className="text-xl font-bold mb-2">Ship Management</h3>
               <p className="text-gray-600 text-center">
@@ -34,18 +23,7 @@ const ServicesSection = () => {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl">
             <div className="p-6 flex flex-col items-center">
               <div className="bg-green-500 text-white rounded-full p-4 mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 2a6 6 0 110 12 6 6 0 010-12z"
-                    clipRule="evenodd"
-                  />
-                </svg>
+                <img src="Images/consultant.png" alt="" />
               </div>
               <h3 className="text-xl font-bold mb-2">Technical Consultancy</h3>
               <p className="text-gray-600 text-center">
@@ -59,18 +37,7 @@ const ServicesSection = () => {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-xl">
             <div className="p-6 flex flex-col items-center">
               <div className="bg-yellow-500 text-white rounded-full p-4 mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-8 w-8"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 2a6 6 0 110 12 6 6 0 010-12z"
-                    clipRule="evenodd"
-                  />
-                </svg>
+                <img src="Images/workers.png" alt="" />
               </div>
               <h3 className="text-xl font-bold mb-2">Crew Management</h3>
               <p className="text-gray-600 text-center">
