@@ -66,18 +66,18 @@ const Footer = () => {
         <div className="mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="w-full md:w-auto text-center md:text-left">
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-800 text-sm">
                 No, Address, Address <br />
                 Address, Plot No. Address, <br />
                 Address, Mumbai 40059
               </p>
-              <p className="text-gray-400 text-sm mt-2">+91 Contact</p>
+              <p className="text-gray-800 text-sm mt-2">+91 Contact</p>
             </div>
             <div className="w-full md:w-auto mt-4 md:mt-0 text-center md:text-right">
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-800 text-sm">
                 © 2024 Seabreeze Group. All Rights Reserved
               </p>
-              <a href="/privacy" className="text-gray-400 hover:text-white">
+              <a href="/privacy" className="text-gray-800 hover:text-white">
                 Privacy Policy
               </a>
             </div>
