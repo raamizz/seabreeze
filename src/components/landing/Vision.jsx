@@ -8,7 +8,7 @@ const Vision = () => {
           <h2 className="text-2xl font-bold mb-4 text-white">Our Vision</h2>
           <p className="text-white leading-relaxed">
             We seek to work towards forming an organization which, as it grows,
-            also promotes inclusive growth and conservation of the environment.
+            also promotes inclusive growth and conservation of the environment
           </p>
         </div>
       </div>
