@@ -13,7 +13,7 @@ const Banner = () => {
       </div>
       <div className="absolute inset-0 flex flex-col gap-2 items-center text-center text-white justify-center">
         <h1 className="md:text-4xl text-2xl font-semibold  text-center uppercase">
-          Sea breeze Fleet Management
+          Sea breeze Ship Management
         </h1>
         <h3>Efficient ship management services for your fleet</h3>
       </div>

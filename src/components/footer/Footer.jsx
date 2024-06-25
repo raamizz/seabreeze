@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between items-center">
           <div className="flex justify-between items-center w-full">
             <div className="w-full md:w-auto text-blue-500">
-             <img src="/Images/SB_Logo.png" className="h-24 w-24" alt="" />
+              <img src="/Images/SB_Logo.png" className="h-24 w-24" alt="" />
             </div>
             <div className="w-full md:w-auto text-blue-400 text-sm md:mt-0">
               <p>Have any question</p>
@@ -67,9 +67,10 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="w-full md:w-auto text-center md:text-left">
               <p className="text-gray-800 text-sm">
-                No, Address, Address <br />
-                Address, Plot No. Address, <br />
-                Address, Mumbai 40059
+                Sea Breeze Ship Management Private Limited <br />
+                Unit 2C, 2nd Floor, Rushabh Chambers Premises Co-op Society Ltd,
+                Makwana Road, Marol <br />
+                Andheri East, Mumbai 400059
               </p>
               <p className="text-gray-800 text-sm mt-2">+91 Contact</p>
             </div>

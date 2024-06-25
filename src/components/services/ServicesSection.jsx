@@ -42,7 +42,7 @@ const ServicesSection = () => {
               <h3 className="text-xl font-bold mb-2">Crew Management</h3>
               <p className="text-gray-600 text-center">
                 We are in the process of obtaining our licenses for crew
-                recruitment in order to man our managed ships with our in-house
+                recruitment in order to operate our managed ships with our in-house
                 recruited seafarers. This would allow us to provide a better
                 trained and experienced staff onboard our vessels while at the
                 same time ensuring that our seafarers are assured of continuing
